@@ -22,7 +22,7 @@ int main(void)
 
     echo "CC=gcc
 CFLAGS= -Wextra -Werror -Wall -pedantic -std=c99 -g -fsanitize=address
-LDFLQGS = -fsanitize=address
+LDFLAGS = -fsanitize=address
 LDLIBS =
 
 all: $1
