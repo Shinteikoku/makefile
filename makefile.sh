@@ -27,10 +27,8 @@ LDLIBS =
 
 all: $1
 
-$1: $1.o main.o
-
+$1: $1.o main.c
 clean:
 	\${RM} *.o
-	\${RM} *.d
 	\${RM} $1">"Makefile"
 fi
