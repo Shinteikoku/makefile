@@ -21,8 +21,8 @@ int main(void)
 }">"main.c"
 
     echo "CC=gcc
-CFLAGS= -Wextra -Werror -Wall -pedantic -std=c99 -g -fsanitize=adress
-LDFLQGS =
+CFLAGS= -Wextra -Werror -Wall -pedantic -std=c99 -g -fsanitize=address
+LDFLQGS = -fsanitize=address
 LDLIBS =
 
 all: $1
